@@ -1,0 +1,3 @@
+/home/sam/development/UniqueProjectName/UniqueProjectName/build/Release/CMakeFiles/rebuild_cache.dir
+/home/sam/development/UniqueProjectName/UniqueProjectName/build/Release/CMakeFiles/edit_cache.dir
+/home/sam/development/UniqueProjectName/UniqueProjectName/build/Release/CMakeFiles/UniqueProjectName.dir
