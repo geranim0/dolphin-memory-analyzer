@@ -1,5 +1,0 @@
-if(EXISTS "/home/sam/development/UniqueProjectName/test/build/Debug/UniqueProjectNameTests[1]_tests.cmake")
-  include("/home/sam/development/UniqueProjectName/test/build/Debug/UniqueProjectNameTests[1]_tests.cmake")
-else()
-  add_test(UniqueProjectNameTests_NOT_BUILT UniqueProjectNameTests_NOT_BUILT)
-endif()

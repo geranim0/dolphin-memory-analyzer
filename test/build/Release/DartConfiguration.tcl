@@ -20,7 +20,7 @@ BuildName: Linux-clang++
 LabelsForSubprojects: 
 
 # Submission information
-SubmitURL: http://open.cdash.org/submit.php?project=UniqueProjectName
+SubmitURL: http://open.cdash.org/submit.php?project=gtest_conan_cmake_template
 
 # Dashboard start time
 NightlyStartTime: 01:00:00 UTC

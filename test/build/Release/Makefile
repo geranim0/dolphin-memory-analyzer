@@ -252,19 +252,6 @@ ExperimentalMemCheck/fast:
 .PHONY : ExperimentalMemCheck/fast
 
 #=============================================================================
-# Target rules for targets named ExperimentalSubmit
-
-# Build rule for target.
-ExperimentalSubmit: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ExperimentalSubmit
-.PHONY : ExperimentalSubmit
-
-# fast build rule for target.
-ExperimentalSubmit/fast:
-	$(MAKE) -f CMakeFiles/ExperimentalSubmit.dir/build.make CMakeFiles/ExperimentalSubmit.dir/build
-.PHONY : ExperimentalSubmit/fast
-
-#=============================================================================
 # Target rules for targets named Experimental
 
 # Build rule for target.
@@ -382,6 +369,32 @@ NightlyCoverage/fast:
 .PHONY : NightlyCoverage/fast
 
 #=============================================================================
+# Target rules for targets named ExperimentalSubmit
+
+# Build rule for target.
+ExperimentalSubmit: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ExperimentalSubmit
+.PHONY : ExperimentalSubmit
+
+# fast build rule for target.
+ExperimentalSubmit/fast:
+	$(MAKE) -f CMakeFiles/ExperimentalSubmit.dir/build.make CMakeFiles/ExperimentalSubmit.dir/build
+.PHONY : ExperimentalSubmit/fast
+
+#=============================================================================
+# Target rules for targets named gtest_conan_cmake_templateTests
+
+# Build rule for target.
+gtest_conan_cmake_templateTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_conan_cmake_templateTests
+.PHONY : gtest_conan_cmake_templateTests
+
+# fast build rule for target.
+gtest_conan_cmake_templateTests/fast:
+	$(MAKE) -f CMakeFiles/gtest_conan_cmake_templateTests.dir/build.make CMakeFiles/gtest_conan_cmake_templateTests.dir/build
+.PHONY : gtest_conan_cmake_templateTests/fast
+
+#=============================================================================
 # Target rules for targets named ExperimentalStart
 
 # Build rule for target.
@@ -485,180 +498,32 @@ ContinuousSubmit/fast:
 	$(MAKE) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
-#=============================================================================
-# Target rules for targets named UniqueProjectNameTests
+main.test.o: main.test.cpp.o
 
-# Build rule for target.
-UniqueProjectNameTests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UniqueProjectNameTests
-.PHONY : UniqueProjectNameTests
-
-# fast build rule for target.
-UniqueProjectNameTests/fast:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/build
-.PHONY : UniqueProjectNameTests/fast
-
-ECS.test.o: ECS.test.cpp.o
-
-.PHONY : ECS.test.o
+.PHONY : main.test.o
 
 # target to build an object file
-ECS.test.cpp.o:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/ECS.test.cpp.o
-.PHONY : ECS.test.cpp.o
+main.test.cpp.o:
+	$(MAKE) -f CMakeFiles/gtest_conan_cmake_templateTests.dir/build.make CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.o
+.PHONY : main.test.cpp.o
 
-ECS.test.i: ECS.test.cpp.i
+main.test.i: main.test.cpp.i
 
-.PHONY : ECS.test.i
-
-# target to preprocess a source file
-ECS.test.cpp.i:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/ECS.test.cpp.i
-.PHONY : ECS.test.cpp.i
-
-ECS.test.s: ECS.test.cpp.s
-
-.PHONY : ECS.test.s
-
-# target to generate assembly for a file
-ECS.test.cpp.s:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/ECS.test.cpp.s
-.PHONY : ECS.test.cpp.s
-
-bresenham.test.o: bresenham.test.cpp.o
-
-.PHONY : bresenham.test.o
-
-# target to build an object file
-bresenham.test.cpp.o:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/bresenham.test.cpp.o
-.PHONY : bresenham.test.cpp.o
-
-bresenham.test.i: bresenham.test.cpp.i
-
-.PHONY : bresenham.test.i
+.PHONY : main.test.i
 
 # target to preprocess a source file
-bresenham.test.cpp.i:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/bresenham.test.cpp.i
-.PHONY : bresenham.test.cpp.i
+main.test.cpp.i:
+	$(MAKE) -f CMakeFiles/gtest_conan_cmake_templateTests.dir/build.make CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.i
+.PHONY : main.test.cpp.i
 
-bresenham.test.s: bresenham.test.cpp.s
+main.test.s: main.test.cpp.s
 
-.PHONY : bresenham.test.s
-
-# target to generate assembly for a file
-bresenham.test.cpp.s:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/bresenham.test.cpp.s
-.PHONY : bresenham.test.cpp.s
-
-flocon_generator.test.o: flocon_generator.test.cpp.o
-
-.PHONY : flocon_generator.test.o
-
-# target to build an object file
-flocon_generator.test.cpp.o:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/flocon_generator.test.cpp.o
-.PHONY : flocon_generator.test.cpp.o
-
-flocon_generator.test.i: flocon_generator.test.cpp.i
-
-.PHONY : flocon_generator.test.i
-
-# target to preprocess a source file
-flocon_generator.test.cpp.i:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/flocon_generator.test.cpp.i
-.PHONY : flocon_generator.test.cpp.i
-
-flocon_generator.test.s: flocon_generator.test.cpp.s
-
-.PHONY : flocon_generator.test.s
+.PHONY : main.test.s
 
 # target to generate assembly for a file
-flocon_generator.test.cpp.s:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/flocon_generator.test.cpp.s
-.PHONY : flocon_generator.test.cpp.s
-
-gmeta.test.o: gmeta.test.cpp.o
-
-.PHONY : gmeta.test.o
-
-# target to build an object file
-gmeta.test.cpp.o:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/gmeta.test.cpp.o
-.PHONY : gmeta.test.cpp.o
-
-gmeta.test.i: gmeta.test.cpp.i
-
-.PHONY : gmeta.test.i
-
-# target to preprocess a source file
-gmeta.test.cpp.i:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/gmeta.test.cpp.i
-.PHONY : gmeta.test.cpp.i
-
-gmeta.test.s: gmeta.test.cpp.s
-
-.PHONY : gmeta.test.s
-
-# target to generate assembly for a file
-gmeta.test.cpp.s:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/gmeta.test.cpp.s
-.PHONY : gmeta.test.cpp.s
-
-home/sam/development/UniqueProjectName/UniqueProjectName/helpers.o: home/sam/development/UniqueProjectName/UniqueProjectName/helpers.cpp.o
-
-.PHONY : home/sam/development/UniqueProjectName/UniqueProjectName/helpers.o
-
-# target to build an object file
-home/sam/development/UniqueProjectName/UniqueProjectName/helpers.cpp.o:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/home/sam/development/UniqueProjectName/UniqueProjectName/helpers.cpp.o
-.PHONY : home/sam/development/UniqueProjectName/UniqueProjectName/helpers.cpp.o
-
-home/sam/development/UniqueProjectName/UniqueProjectName/helpers.i: home/sam/development/UniqueProjectName/UniqueProjectName/helpers.cpp.i
-
-.PHONY : home/sam/development/UniqueProjectName/UniqueProjectName/helpers.i
-
-# target to preprocess a source file
-home/sam/development/UniqueProjectName/UniqueProjectName/helpers.cpp.i:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/home/sam/development/UniqueProjectName/UniqueProjectName/helpers.cpp.i
-.PHONY : home/sam/development/UniqueProjectName/UniqueProjectName/helpers.cpp.i
-
-home/sam/development/UniqueProjectName/UniqueProjectName/helpers.s: home/sam/development/UniqueProjectName/UniqueProjectName/helpers.cpp.s
-
-.PHONY : home/sam/development/UniqueProjectName/UniqueProjectName/helpers.s
-
-# target to generate assembly for a file
-home/sam/development/UniqueProjectName/UniqueProjectName/helpers.cpp.s:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/home/sam/development/UniqueProjectName/UniqueProjectName/helpers.cpp.s
-.PHONY : home/sam/development/UniqueProjectName/UniqueProjectName/helpers.cpp.s
-
-smash_game.test.o: smash_game.test.cpp.o
-
-.PHONY : smash_game.test.o
-
-# target to build an object file
-smash_game.test.cpp.o:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/smash_game.test.cpp.o
-.PHONY : smash_game.test.cpp.o
-
-smash_game.test.i: smash_game.test.cpp.i
-
-.PHONY : smash_game.test.i
-
-# target to preprocess a source file
-smash_game.test.cpp.i:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/smash_game.test.cpp.i
-.PHONY : smash_game.test.cpp.i
-
-smash_game.test.s: smash_game.test.cpp.s
-
-.PHONY : smash_game.test.s
-
-# target to generate assembly for a file
-smash_game.test.cpp.s:
-	$(MAKE) -f CMakeFiles/UniqueProjectNameTests.dir/build.make CMakeFiles/UniqueProjectNameTests.dir/smash_game.test.cpp.s
-.PHONY : smash_game.test.cpp.s
+main.test.cpp.s:
+	$(MAKE) -f CMakeFiles/gtest_conan_cmake_templateTests.dir/build.make CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.s
+.PHONY : main.test.cpp.s
 
 # Help Target
 help:
@@ -679,7 +544,6 @@ help:
 	@echo "... ContinuousUpdate"
 	@echo "... NightlyUpdate"
 	@echo "... ExperimentalMemCheck"
-	@echo "... ExperimentalSubmit"
 	@echo "... Experimental"
 	@echo "... ContinuousCoverage"
 	@echo "... ExperimentalConfigure"
@@ -689,6 +553,8 @@ help:
 	@echo "... NightlyStart"
 	@echo "... ExperimentalCoverage"
 	@echo "... NightlyCoverage"
+	@echo "... ExperimentalSubmit"
+	@echo "... gtest_conan_cmake_templateTests"
 	@echo "... ExperimentalStart"
 	@echo "... NightlyBuild"
 	@echo "... ExperimentalBuild"
@@ -697,25 +563,9 @@ help:
 	@echo "... ContinuousMemCheck"
 	@echo "... ContinuousTest"
 	@echo "... ContinuousSubmit"
-	@echo "... UniqueProjectNameTests"
-	@echo "... ECS.test.o"
-	@echo "... ECS.test.i"
-	@echo "... ECS.test.s"
-	@echo "... bresenham.test.o"
-	@echo "... bresenham.test.i"
-	@echo "... bresenham.test.s"
-	@echo "... flocon_generator.test.o"
-	@echo "... flocon_generator.test.i"
-	@echo "... flocon_generator.test.s"
-	@echo "... gmeta.test.o"
-	@echo "... gmeta.test.i"
-	@echo "... gmeta.test.s"
-	@echo "... home/sam/development/UniqueProjectName/UniqueProjectName/helpers.o"
-	@echo "... home/sam/development/UniqueProjectName/UniqueProjectName/helpers.i"
-	@echo "... home/sam/development/UniqueProjectName/UniqueProjectName/helpers.s"
-	@echo "... smash_game.test.o"
-	@echo "... smash_game.test.i"
-	@echo "... smash_game.test.s"
+	@echo "... main.test.o"
+	@echo "... main.test.i"
+	@echo "... main.test.s"
 .PHONY : help
 
 

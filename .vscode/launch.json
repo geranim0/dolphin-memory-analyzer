@@ -6,15 +6,15 @@
     "configurations": [
         {
             "type": "cppdbg",
-            "name": "Debug UniqueProjectName",
-            "program": "${workspaceFolder}/UniqueProjectName/build/Debug/bin/UniqueProjectName",
+            "name": "Debug gtest_conan_cmake_template",
+            "program": "${workspaceFolder}/gtest_conan_cmake_template/build/Debug/bin/gtest_conan_cmake_template",
             "request": "launch",
-            "cwd": "${workspaceFolder}/UniqueProjectName/build/Debug/bin/"
+            "cwd": "${workspaceFolder}/gtest_conan_cmake_template/build/Debug/bin/"
         },
         {
             "type": "cppdbg",
             "name": "Debug tests",
-            "program": "${workspaceFolder}/test/build/Debug/bin/UniqueProjectNameTests",
+            "program": "${workspaceFolder}/test/build/Debug/bin/gtest_conan_cmake_templateTests",
             "request": "launch",
             "cwd": "${workspaceFolder}/test/build/Debug/bin/"
         }
