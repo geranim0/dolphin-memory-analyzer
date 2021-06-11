@@ -6,4 +6,4 @@
 - <projectName>/build/Release
 - <projectName>/build/Debug
 
-2. And also search and replace all occurrences of `UniqueProjectName` with the real project name.
+2. And also search and replace all occurrences of `gtest_conan_cmake_template` with the real project name.
