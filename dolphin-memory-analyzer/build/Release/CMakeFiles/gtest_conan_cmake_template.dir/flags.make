@@ -6,5 +6,5 @@ CXX_FLAGS =    -O3 -DNDEBUG    -Wall -Wextra -pedantic -fno-exceptions -Ofast -s
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/sam/development/UniqueProjectName/gtest_conan_cmake_template/.. 
+CXX_INCLUDES = -I/home/sam/development/UniqueProjectName/dolphin-memory-analyzer/.. 
 

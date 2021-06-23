@@ -49,51 +49,51 @@ CMAKE_SOURCE_DIR = /home/sam/development/UniqueProjectName/test
 CMAKE_BINARY_DIR = /home/sam/development/UniqueProjectName/test/build/Release
 
 # Include any dependencies generated for this target.
-include CMakeFiles/gtest_conan_cmake_templateTests.dir/depend.make
+include CMakeFiles/dolphin-memory-analyzerTests.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/gtest_conan_cmake_templateTests.dir/progress.make
+include CMakeFiles/dolphin-memory-analyzerTests.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/gtest_conan_cmake_templateTests.dir/flags.make
+include CMakeFiles/dolphin-memory-analyzerTests.dir/flags.make
 
-CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.o: CMakeFiles/gtest_conan_cmake_templateTests.dir/flags.make
-CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.o: ../../main.test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/development/UniqueProjectName/test/build/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.o -c /home/sam/development/UniqueProjectName/test/main.test.cpp
+CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.o: CMakeFiles/dolphin-memory-analyzerTests.dir/flags.make
+CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.o: ../../main.test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/development/UniqueProjectName/test/build/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.o -c /home/sam/development/UniqueProjectName/test/main.test.cpp
 
-CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/development/UniqueProjectName/test/main.test.cpp > CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.i
+CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/development/UniqueProjectName/test/main.test.cpp > CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.i
 
-CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/development/UniqueProjectName/test/main.test.cpp -o CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.s
+CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/development/UniqueProjectName/test/main.test.cpp -o CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.s
 
-# Object files for target gtest_conan_cmake_templateTests
-gtest_conan_cmake_templateTests_OBJECTS = \
-"CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.o"
+# Object files for target dolphin-memory-analyzerTests
+dolphin-memory-analyzerTests_OBJECTS = \
+"CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.o"
 
-# External object files for target gtest_conan_cmake_templateTests
-gtest_conan_cmake_templateTests_EXTERNAL_OBJECTS =
+# External object files for target dolphin-memory-analyzerTests
+dolphin-memory-analyzerTests_EXTERNAL_OBJECTS =
 
-bin/gtest_conan_cmake_templateTests: CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.o
-bin/gtest_conan_cmake_templateTests: CMakeFiles/gtest_conan_cmake_templateTests.dir/build.make
-bin/gtest_conan_cmake_templateTests: CMakeFiles/gtest_conan_cmake_templateTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/development/UniqueProjectName/test/build/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/gtest_conan_cmake_templateTests"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_conan_cmake_templateTests.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/cmake -D TEST_TARGET=gtest_conan_cmake_templateTests -D TEST_EXECUTABLE=/home/sam/development/UniqueProjectName/test/build/Release/bin/gtest_conan_cmake_templateTests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/sam/development/UniqueProjectName/test/build/Release -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=gtest_conan_cmake_templateTests_TESTS -D CTEST_FILE=/home/sam/development/UniqueProjectName/test/build/Release/gtest_conan_cmake_templateTests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -P /usr/share/cmake-3.16/Modules/GoogleTestAddTests.cmake
+bin/dolphin-memory-analyzerTests: CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.o
+bin/dolphin-memory-analyzerTests: CMakeFiles/dolphin-memory-analyzerTests.dir/build.make
+bin/dolphin-memory-analyzerTests: CMakeFiles/dolphin-memory-analyzerTests.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/development/UniqueProjectName/test/build/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/dolphin-memory-analyzerTests"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dolphin-memory-analyzerTests.dir/link.txt --verbose=$(VERBOSE)
+	/usr/bin/cmake -D TEST_TARGET=dolphin-memory-analyzerTests -D TEST_EXECUTABLE=/home/sam/development/UniqueProjectName/test/build/Release/bin/dolphin-memory-analyzerTests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/sam/development/UniqueProjectName/test/build/Release -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=dolphin-memory-analyzerTests_TESTS -D CTEST_FILE=/home/sam/development/UniqueProjectName/test/build/Release/dolphin-memory-analyzerTests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -P /usr/share/cmake-3.16/Modules/GoogleTestAddTests.cmake
 
 # Rule to build all files generated by this target.
-CMakeFiles/gtest_conan_cmake_templateTests.dir/build: bin/gtest_conan_cmake_templateTests
+CMakeFiles/dolphin-memory-analyzerTests.dir/build: bin/dolphin-memory-analyzerTests
 
-.PHONY : CMakeFiles/gtest_conan_cmake_templateTests.dir/build
+.PHONY : CMakeFiles/dolphin-memory-analyzerTests.dir/build
 
-CMakeFiles/gtest_conan_cmake_templateTests.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/gtest_conan_cmake_templateTests.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/gtest_conan_cmake_templateTests.dir/clean
+CMakeFiles/dolphin-memory-analyzerTests.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/dolphin-memory-analyzerTests.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/dolphin-memory-analyzerTests.dir/clean
 
-CMakeFiles/gtest_conan_cmake_templateTests.dir/depend:
-	cd /home/sam/development/UniqueProjectName/test/build/Release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/development/UniqueProjectName/test /home/sam/development/UniqueProjectName/test /home/sam/development/UniqueProjectName/test/build/Release /home/sam/development/UniqueProjectName/test/build/Release /home/sam/development/UniqueProjectName/test/build/Release/CMakeFiles/gtest_conan_cmake_templateTests.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/gtest_conan_cmake_templateTests.dir/depend
+CMakeFiles/dolphin-memory-analyzerTests.dir/depend:
+	cd /home/sam/development/UniqueProjectName/test/build/Release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/development/UniqueProjectName/test /home/sam/development/UniqueProjectName/test /home/sam/development/UniqueProjectName/test/build/Release /home/sam/development/UniqueProjectName/test/build/Release /home/sam/development/UniqueProjectName/test/build/Release/CMakeFiles/dolphin-memory-analyzerTests.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/dolphin-memory-analyzerTests.dir/depend
 

@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/development/UniqueProjectName/gtest_conan_cmake_template
+CMAKE_SOURCE_DIR = /home/sam/development/UniqueProjectName/dolphin-memory-analyzer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/development/UniqueProjectName/gtest_conan_cmake_template/build/Release
+CMAKE_BINARY_DIR = /home/sam/development/UniqueProjectName/dolphin-memory-analyzer/build/Release
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/gtest_conan_cmake_template.dir/all
+all: CMakeFiles/dolphin-memory-analyzer.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/gtest_conan_cmake_template.dir/clean
+clean: CMakeFiles/dolphin-memory-analyzer.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/gtest_conan_cmake_template.dir
+# Target rules for target CMakeFiles/dolphin-memory-analyzer.dir
 
 # All Build rule for target.
-CMakeFiles/gtest_conan_cmake_template.dir/all:
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_template.dir/build.make CMakeFiles/gtest_conan_cmake_template.dir/depend
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_template.dir/build.make CMakeFiles/gtest_conan_cmake_template.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sam/development/UniqueProjectName/gtest_conan_cmake_template/build/Release/CMakeFiles --progress-num=1,2 "Built target gtest_conan_cmake_template"
-.PHONY : CMakeFiles/gtest_conan_cmake_template.dir/all
+CMakeFiles/dolphin-memory-analyzer.dir/all:
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzer.dir/build.make CMakeFiles/dolphin-memory-analyzer.dir/depend
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzer.dir/build.make CMakeFiles/dolphin-memory-analyzer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sam/development/UniqueProjectName/dolphin-memory-analyzer/build/Release/CMakeFiles --progress-num=1,2 "Built target dolphin-memory-analyzer"
+.PHONY : CMakeFiles/dolphin-memory-analyzer.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/gtest_conan_cmake_template.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/UniqueProjectName/gtest_conan_cmake_template/build/Release/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gtest_conan_cmake_template.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/UniqueProjectName/gtest_conan_cmake_template/build/Release/CMakeFiles 0
-.PHONY : CMakeFiles/gtest_conan_cmake_template.dir/rule
+CMakeFiles/dolphin-memory-analyzer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/UniqueProjectName/dolphin-memory-analyzer/build/Release/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dolphin-memory-analyzer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/UniqueProjectName/dolphin-memory-analyzer/build/Release/CMakeFiles 0
+.PHONY : CMakeFiles/dolphin-memory-analyzer.dir/rule
 
 # Convenience name for target.
-gtest_conan_cmake_template: CMakeFiles/gtest_conan_cmake_template.dir/rule
+dolphin-memory-analyzer: CMakeFiles/dolphin-memory-analyzer.dir/rule
 
-.PHONY : gtest_conan_cmake_template
+.PHONY : dolphin-memory-analyzer
 
 # clean rule for target.
-CMakeFiles/gtest_conan_cmake_template.dir/clean:
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_template.dir/build.make CMakeFiles/gtest_conan_cmake_template.dir/clean
-.PHONY : CMakeFiles/gtest_conan_cmake_template.dir/clean
+CMakeFiles/dolphin-memory-analyzer.dir/clean:
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzer.dir/build.make CMakeFiles/dolphin-memory-analyzer.dir/clean
+.PHONY : CMakeFiles/dolphin-memory-analyzer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

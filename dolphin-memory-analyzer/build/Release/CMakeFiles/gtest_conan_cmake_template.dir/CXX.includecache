@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sam/development/UniqueProjectName/gtest_conan_cmake_template/main.cpp
+/home/sam/development/UniqueProjectName/dolphin-memory-analyzer/main.cpp
 iostream
 -
 

@@ -382,17 +382,17 @@ ExperimentalSubmit/fast:
 .PHONY : ExperimentalSubmit/fast
 
 #=============================================================================
-# Target rules for targets named gtest_conan_cmake_templateTests
+# Target rules for targets named dolphin-memory-analyzerTests
 
 # Build rule for target.
-gtest_conan_cmake_templateTests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gtest_conan_cmake_templateTests
-.PHONY : gtest_conan_cmake_templateTests
+dolphin-memory-analyzerTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dolphin-memory-analyzerTests
+.PHONY : dolphin-memory-analyzerTests
 
 # fast build rule for target.
-gtest_conan_cmake_templateTests/fast:
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_templateTests.dir/build.make CMakeFiles/gtest_conan_cmake_templateTests.dir/build
-.PHONY : gtest_conan_cmake_templateTests/fast
+dolphin-memory-analyzerTests/fast:
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzerTests.dir/build.make CMakeFiles/dolphin-memory-analyzerTests.dir/build
+.PHONY : dolphin-memory-analyzerTests/fast
 
 #=============================================================================
 # Target rules for targets named ExperimentalStart
@@ -504,7 +504,7 @@ main.test.o: main.test.cpp.o
 
 # target to build an object file
 main.test.cpp.o:
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_templateTests.dir/build.make CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.o
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzerTests.dir/build.make CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.o
 .PHONY : main.test.cpp.o
 
 main.test.i: main.test.cpp.i
@@ -513,7 +513,7 @@ main.test.i: main.test.cpp.i
 
 # target to preprocess a source file
 main.test.cpp.i:
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_templateTests.dir/build.make CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.i
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzerTests.dir/build.make CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.i
 .PHONY : main.test.cpp.i
 
 main.test.s: main.test.cpp.s
@@ -522,7 +522,7 @@ main.test.s: main.test.cpp.s
 
 # target to generate assembly for a file
 main.test.cpp.s:
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_templateTests.dir/build.make CMakeFiles/gtest_conan_cmake_templateTests.dir/main.test.cpp.s
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzerTests.dir/build.make CMakeFiles/dolphin-memory-analyzerTests.dir/main.test.cpp.s
 .PHONY : main.test.cpp.s
 
 # Help Target
@@ -554,7 +554,7 @@ help:
 	@echo "... ExperimentalCoverage"
 	@echo "... NightlyCoverage"
 	@echo "... ExperimentalSubmit"
-	@echo "... gtest_conan_cmake_templateTests"
+	@echo "... dolphin-memory-analyzerTests"
 	@echo "... ExperimentalStart"
 	@echo "... NightlyBuild"
 	@echo "... ExperimentalBuild"

@@ -1,4 +1,4 @@
-# gtest_conan_cmake_template
+# dolphin-memory-analyzer
 
 1. only need to add 
 - test/build/Release
@@ -6,4 +6,4 @@
 - <projectName>/build/Release
 - <projectName>/build/Debug
 
-2. And also search and replace all occurrences of `gtest_conan_cmake_template` with the real project name.
+2. And also search and replace all occurrences of `dolphin-memory-analyzer` with the real project name.

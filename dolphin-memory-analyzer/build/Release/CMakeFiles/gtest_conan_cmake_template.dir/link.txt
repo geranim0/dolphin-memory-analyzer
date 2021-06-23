@@ -1,0 +1,1 @@
+/usr/bin/clang++     -O3 -DNDEBUG        CMakeFiles/dolphin-memory-analyzer.dir/main.cpp.o  -o bin/dolphin-memory-analyzer 

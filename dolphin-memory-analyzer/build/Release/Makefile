@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/development/UniqueProjectName/gtest_conan_cmake_template
+CMAKE_SOURCE_DIR = /home/sam/development/UniqueProjectName/dolphin-memory-analyzer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/development/UniqueProjectName/gtest_conan_cmake_template/build/Release
+CMAKE_BINARY_DIR = /home/sam/development/UniqueProjectName/dolphin-memory-analyzer/build/Release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/UniqueProjectName/gtest_conan_cmake_template/build/Release/CMakeFiles /home/sam/development/UniqueProjectName/gtest_conan_cmake_template/build/Release/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/UniqueProjectName/dolphin-memory-analyzer/build/Release/CMakeFiles /home/sam/development/UniqueProjectName/dolphin-memory-analyzer/build/Release/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/UniqueProjectName/gtest_conan_cmake_template/build/Release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/UniqueProjectName/dolphin-memory-analyzer/build/Release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named gtest_conan_cmake_template
+# Target rules for targets named dolphin-memory-analyzer
 
 # Build rule for target.
-gtest_conan_cmake_template: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gtest_conan_cmake_template
-.PHONY : gtest_conan_cmake_template
+dolphin-memory-analyzer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dolphin-memory-analyzer
+.PHONY : dolphin-memory-analyzer
 
 # fast build rule for target.
-gtest_conan_cmake_template/fast:
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_template.dir/build.make CMakeFiles/gtest_conan_cmake_template.dir/build
-.PHONY : gtest_conan_cmake_template/fast
+dolphin-memory-analyzer/fast:
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzer.dir/build.make CMakeFiles/dolphin-memory-analyzer.dir/build
+.PHONY : dolphin-memory-analyzer/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_template.dir/build.make CMakeFiles/gtest_conan_cmake_template.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzer.dir/build.make CMakeFiles/dolphin-memory-analyzer.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_template.dir/build.make CMakeFiles/gtest_conan_cmake_template.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzer.dir/build.make CMakeFiles/dolphin-memory-analyzer.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_template.dir/build.make CMakeFiles/gtest_conan_cmake_template.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzer.dir/build.make CMakeFiles/dolphin-memory-analyzer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... gtest_conan_cmake_template"
+	@echo "... dolphin-memory-analyzer"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

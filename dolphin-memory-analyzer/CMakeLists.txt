@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # set the project name
-project(gtest_conan_cmake_template VERSION 0.1)
+project(dolphin-memory-analyzer VERSION 0.1)
 
 # specify the C++ standard
 set(CMAKE_CXX_STANDARD 20)
@@ -27,9 +27,9 @@ include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
 
 # add the executable
-add_executable(gtest_conan_cmake_template 
+add_executable(dolphin-memory-analyzer 
     main.cpp 
 )
 
 #link to conan libs
-target_link_libraries(gtest_conan_cmake_template ${CONAN_LIBS})
+target_link_libraries(dolphin-memory-analyzer ${CONAN_LIBS})

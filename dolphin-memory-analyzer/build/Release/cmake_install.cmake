@@ -1,4 +1,4 @@
-# Install script for directory: /home/sam/development/UniqueProjectName/gtest_conan_cmake_template
+# Install script for directory: /home/sam/development/UniqueProjectName/dolphin-memory-analyzer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sam/development/UniqueProjectName/gtest_conan_cmake_template/build/Release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sam/development/UniqueProjectName/dolphin-memory-analyzer/build/Release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

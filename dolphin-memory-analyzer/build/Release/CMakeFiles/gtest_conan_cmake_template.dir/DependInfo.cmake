@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sam/development/UniqueProjectName/gtest_conan_cmake_template/main.cpp" "/home/sam/development/UniqueProjectName/gtest_conan_cmake_template/build/Release/CMakeFiles/gtest_conan_cmake_template.dir/main.cpp.o"
+  "/home/sam/development/UniqueProjectName/dolphin-memory-analyzer/main.cpp" "/home/sam/development/UniqueProjectName/dolphin-memory-analyzer/build/Release/CMakeFiles/dolphin-memory-analyzer.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

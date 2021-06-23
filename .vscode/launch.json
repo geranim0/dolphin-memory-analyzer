@@ -6,15 +6,15 @@
     "configurations": [
         {
             "type": "cppdbg",
-            "name": "Debug gtest_conan_cmake_template",
-            "program": "${workspaceFolder}/gtest_conan_cmake_template/build/Debug/bin/gtest_conan_cmake_template",
+            "name": "Debug dolphin-memory-analyzer",
+            "program": "${workspaceFolder}/dolphin-memory-analyzer/build/Debug/bin/dolphin-memory-analyzer",
             "request": "launch",
-            "cwd": "${workspaceFolder}/gtest_conan_cmake_template/build/Debug/bin/"
+            "cwd": "${workspaceFolder}/dolphin-memory-analyzer/build/Debug/bin/"
         },
         {
             "type": "cppdbg",
             "name": "Debug tests",
-            "program": "${workspaceFolder}/test/build/Debug/bin/gtest_conan_cmake_templateTests",
+            "program": "${workspaceFolder}/test/build/Debug/bin/dolphin-memory-analyzerTests",
             "request": "launch",
             "cwd": "${workspaceFolder}/test/build/Debug/bin/"
         }

@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/sam/development/UniqueProjectName/test/build/Release
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/gtest_conan_cmake_templateTests.dir/all
+all: CMakeFiles/dolphin-memory-analyzerTests.dir/all
 
 .PHONY : all
 
@@ -83,7 +83,7 @@ clean: CMakeFiles/NightlyStart.dir/clean
 clean: CMakeFiles/ExperimentalCoverage.dir/clean
 clean: CMakeFiles/NightlyCoverage.dir/clean
 clean: CMakeFiles/ExperimentalSubmit.dir/clean
-clean: CMakeFiles/gtest_conan_cmake_templateTests.dir/clean
+clean: CMakeFiles/dolphin-memory-analyzerTests.dir/clean
 clean: CMakeFiles/ExperimentalStart.dir/clean
 clean: CMakeFiles/NightlyBuild.dir/clean
 clean: CMakeFiles/ExperimentalBuild.dir/clean
@@ -636,31 +636,31 @@ CMakeFiles/ExperimentalSubmit.dir/clean:
 .PHONY : CMakeFiles/ExperimentalSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/gtest_conan_cmake_templateTests.dir
+# Target rules for target CMakeFiles/dolphin-memory-analyzerTests.dir
 
 # All Build rule for target.
-CMakeFiles/gtest_conan_cmake_templateTests.dir/all:
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_templateTests.dir/build.make CMakeFiles/gtest_conan_cmake_templateTests.dir/depend
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_templateTests.dir/build.make CMakeFiles/gtest_conan_cmake_templateTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sam/development/UniqueProjectName/test/build/Release/CMakeFiles --progress-num=1,2 "Built target gtest_conan_cmake_templateTests"
-.PHONY : CMakeFiles/gtest_conan_cmake_templateTests.dir/all
+CMakeFiles/dolphin-memory-analyzerTests.dir/all:
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzerTests.dir/build.make CMakeFiles/dolphin-memory-analyzerTests.dir/depend
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzerTests.dir/build.make CMakeFiles/dolphin-memory-analyzerTests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sam/development/UniqueProjectName/test/build/Release/CMakeFiles --progress-num=1,2 "Built target dolphin-memory-analyzerTests"
+.PHONY : CMakeFiles/dolphin-memory-analyzerTests.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/gtest_conan_cmake_templateTests.dir/rule: cmake_check_build_system
+CMakeFiles/dolphin-memory-analyzerTests.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/UniqueProjectName/test/build/Release/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gtest_conan_cmake_templateTests.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dolphin-memory-analyzerTests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/development/UniqueProjectName/test/build/Release/CMakeFiles 0
-.PHONY : CMakeFiles/gtest_conan_cmake_templateTests.dir/rule
+.PHONY : CMakeFiles/dolphin-memory-analyzerTests.dir/rule
 
 # Convenience name for target.
-gtest_conan_cmake_templateTests: CMakeFiles/gtest_conan_cmake_templateTests.dir/rule
+dolphin-memory-analyzerTests: CMakeFiles/dolphin-memory-analyzerTests.dir/rule
 
-.PHONY : gtest_conan_cmake_templateTests
+.PHONY : dolphin-memory-analyzerTests
 
 # clean rule for target.
-CMakeFiles/gtest_conan_cmake_templateTests.dir/clean:
-	$(MAKE) -f CMakeFiles/gtest_conan_cmake_templateTests.dir/build.make CMakeFiles/gtest_conan_cmake_templateTests.dir/clean
-.PHONY : CMakeFiles/gtest_conan_cmake_templateTests.dir/clean
+CMakeFiles/dolphin-memory-analyzerTests.dir/clean:
+	$(MAKE) -f CMakeFiles/dolphin-memory-analyzerTests.dir/build.make CMakeFiles/dolphin-memory-analyzerTests.dir/clean
+.PHONY : CMakeFiles/dolphin-memory-analyzerTests.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ExperimentalStart.dir
